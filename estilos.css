@@ -1,0 +1,43 @@
+.sofia{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background: pink;
+	width: 1350px;
+	height: 635px;
+}
+.papa{
+	position: absolute;
+	top: 30px;
+	left: 32px;
+	background: black;
+	width: 280px;
+	height: 200px;
+	transition: all 1s 3s;
+	background: url(papa.jpg);
+
+
+}
+.papa:hover{
+	height: 2000px;
+	width: 1700px;
+	background-size: cover;
+	background:  #F9F2B4;
+
+}
+.arroz{
+	position: absolute;
+	top: 450px;
+	left: 980px;
+	background: black;
+	width: 300px;
+	height: 200px;
+	transition: all 1s 3s;
+	background: url(arroz.jpg);
+
+}
+.arroz:hover{
+	height: 200px;
+	width: 1700px;
+	background:  #F8AD62;
+}
